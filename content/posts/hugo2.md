@@ -1,8 +1,8 @@
 ---
-date : "2016-01-02T16:59:10-08:00"
+date : "2023-05-07T14:45:10-08:00"
 draft : true
-title : "AWS EC2"
-description : "My experience with AWS EC2"
+title : "Hugo 2"
+description : "Deprecation"
 tags        : [ "Development", "AWS", "EC2"]
 topics      : [ "Development", "AWS"]
 ---

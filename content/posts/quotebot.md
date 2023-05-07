@@ -1,11 +1,13 @@
-+++
-date = "2018-12-02T16:12:21-08:00"
-draft = false
-title = "QuoteBot"
-description = "QuoteBot"
-tags        = [ "Development", "Go", "Mongo", "Heroku"]
-topics      = [ "Development", "Go"]
-+++
+---
+date : "2018-12-02T16:12:21-08:00"
+draft : false
+title : "QuoteBot"
+description : "QuoteBot"
+tags        : [ "Development", "Go", "Mongo", "Heroku"]
+topics      : [ "Development", "Go"]
+showTableOfContents: true
+type: post
+---
 
 ## My Goals:
 Learn GO <br>

@@ -1,13 +1,14 @@
-+++
-draft = false
-title = "Resume"
-description = "My Resume"
-tags        = [ "Development", "Resume"]
-topics      = [ "Development"]
-+++
+---
+title : "Resume"
+date: 2022-05-07T13:53:00+08:00
+description : ""
+tags        : [ "Development", "Resume"]
+topics      : [ "Development"]
+showTableOfContents: true
+type: post
+---
 
-
-## SOFTWARE ENGINEER
+## PRINCIPAL SOFTWARE ENGINEER
 
 ### Objective
 

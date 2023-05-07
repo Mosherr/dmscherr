@@ -1,11 +1,13 @@
-+++
-date = "2015-12-27T14:33:21-08:00"
-draft = false
-title = "Hugo"
-description = "My experience with Hugo"
-tags        = [ "Development", "Go", "Hugo", "Blog"]
-topics      = [ "Development", "Go"]
-+++
+---
+date : "2015-12-27T14:33:21-08:00"
+draft : false
+title : "Hugo"
+description : "My experience with Hugo"
+tags        : [ "Development", "Go", "Hugo", "Blog"]
+topics      : [ "Development", "Go"]
+showTableOfContents: true
+type: post
+---
 
 After a recommendation from a friend I decided to take a look into [Hugo](https://gohugo.io/). Hugo is a blog framework built on Go. I have been trying to find projects in Go so I can learn more about it so this seemed like a good start. I decided to take down my old site which was just a resume and profile for a blog. I've had prior experience with Drupal and Wordpress - they are great platforms, but I wanted something with less bloat so I decided to go with Hugo.
 

@@ -1,11 +1,13 @@
-+++
-date = "2015-12-27T14:33:21-08:00"
-draft = false
-title = "Polymer"
-description = "My experience with Polymer"
-tags        = [ "Development", "Polymer"]
-topics      = [ "Development", "Polymer"]
-+++
+---
+date : "2015-12-27T14:33:21-08:00"
+draft : false
+title : "Polymer"
+description : "My experience with Polymer"
+tags        : [ "Development", "Polymer"]
+topics      : [ "Development", "Polymer"]
+showTableOfContents: true
+type: post
+---
 
 I heard about [Polymer] (https://www.polymer-project.org/1.0/) at a Google Meetup in Sacramento and immediately wanted to play with it. The ideas behind making such modular code were really amazing to see. With so much emphasis on using frameworks it was really refreshing to see something different. With Polymer you can plug it in to any existing frontend or build from scratch.
 

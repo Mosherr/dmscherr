@@ -1,11 +1,13 @@
-+++
-date = "2015-12-27T14:33:21-08:00"
-draft = false
-title = "Go"
-description = "My experience with Go"
-tags        = [ "Development", "Go"]
-topics      = [ "Development", "Go"]
-+++
+---
+date : "2015-12-27T14:33:21-08:00"
+draft : false
+title : "Go"
+description : "My experience with Go"
+tags        : [ "Development", "Go"]
+topics      : [ "Development", "Go"]
+showTableOfContents: true
+type: post
+---
 
 My friend told me about [Go](https://golang.org/) a year ago. I went through the tutorial and created a simple wiki page using Go as the front and backend.
 

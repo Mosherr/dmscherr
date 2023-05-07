@@ -1,0 +1,96 @@
+baseURL = 'http://dmscherr.com'
+languageCode = 'en-us'
+title = "Code and Things"
+author = "Daniel Scherr"
+theme = 'gokarna'
+enableRobotsTXT = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[params]
+  footer = "Dmscherr"
+  description = "This is a blog for me to write down my thoughts about projects I work on."
+  avatarURL = "/images/turtle.webp"
+  AvatarAltText = "avatar"
+  avatarSize = "size-m"
+  customHeadHTML = ""
+  socialIcons = [
+    {name = "linkedin", url = "https://www.linkedin.com/in/dmscherr/"},
+    {name = "github", url = "https://github.com/Mosherr"},
+    {name = "email", url = "mailto:me@dmscherr.com"}
+  ]
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Resume"
+    pre = "<span data-feather='code'></span>"
+    url = "/pages/resume/"
+    weight = 3
+
+  [[menu.main]]
+      name = "About"
+      pre = "<span data-feather='code'></span>"
+      url = "/pages/about/"
+      weight = 3
+
+  [[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/Mosherr"
+    weight = 5
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
+
+
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+name = "dmscherr-hugo"
+
+URL = "s3://www.dmscherr.com?region=us-west-1"
+
+[[deployment.matchers]]
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
