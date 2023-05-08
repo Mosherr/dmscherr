@@ -5,7 +5,7 @@ description : ""
 tags        : [ "Development", "Resume"]
 topics      : [ "Development"]
 showTableOfContents: true
-type: post
+type: page
 ---
 
 ## PRINCIPAL SOFTWARE ENGINEER

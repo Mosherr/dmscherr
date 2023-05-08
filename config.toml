@@ -1,9 +1,11 @@
-baseURL = 'http://dmscherr.com'
+baseURL = 'http://dmscherr.com/'
 languageCode = 'en-us'
 title = "Code and Things"
 author = "Daniel Scherr"
 theme = 'gokarna'
-enableRobotsTXT = true
+enableRobotsTXT = false
+enableEmoji = true
+pygmentsStyle = "monokai"
 
 [taxonomies]
   tag = "tags"
@@ -18,7 +20,7 @@ enableRobotsTXT = true
   avatarSize = "size-m"
   customHeadHTML = ""
   socialIcons = [
-    {name = "linkedin", url = "https://www.linkedin.com/in/dmscherr/"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/dmscherr"},
     {name = "github", url = "https://github.com/Mosherr"},
     {name = "email", url = "mailto:me@dmscherr.com"}
   ]
@@ -79,12 +81,6 @@ order = [".jpg$", ".gif$"]
 name = "dmscherr-hugo"
 
 URL = "s3://www.dmscherr.com?region=us-west-1"
-
-[[deployment.matchers]]
-# Cache static assets for 1 year.
-pattern = "^.+\\.(js|css|svg|ttf)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
 
 [[deployment.matchers]]
 pattern = "^.+\\.(png|jpg)$"
